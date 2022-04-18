@@ -1,4 +1,4 @@
-// Счетчик состоит из спана и кнопок, которые, при клике, должны увеличивать и уменьшать его значение на единицу.
+// The counter consists of a span and buttons, which, when clicked, should increase and decrease its value by one.
 
 let counterValue = 0;
 
