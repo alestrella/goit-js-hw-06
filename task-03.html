@@ -6,7 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Task 3</title>
     <link rel="stylesheet" href="css/common.css" />
-    <link rel="stylesheet" href="css/task-03.css">
+    <style>
+      .gallery {
+      display: flex;
+      flex-wrap: wrap;
+
+      padding: 0;
+      list-style: none;
+    }
+    .gallery-item {
+      margin-right: 30px;
+      margin-bottom: 30px;
+      flex-basis: calc(100% / 2 - 30px);
+    }
+    .gallery img {
+      display: block;
+      max-width: 80%;
+      height: auto;
+    }
+    </style>
   </head>
   <body>
     <p><a href="index.html">Go back</a></p>
